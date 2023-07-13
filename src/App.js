@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+// import Assessment from './Components/Assessment/assess';
+// import ShowHideText from "./Components/Assessment/showtext";
+// import InputChange from "./Components/Prac";
+// import ColorChange from "./Components/Assessment/colorChange";
+// import Counter from "./Components/Assessment/counter";
+import Todo from './Components/TodoList/Todo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Todo />
     </div>
   );
 }
